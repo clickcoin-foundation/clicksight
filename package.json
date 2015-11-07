@@ -6,7 +6,7 @@
     "name": "Larry Ren",
     "email": "ren@reddcoin.com"
   },
-  "repository": "git://github.com/noise23/clicksight.git",
+  "repository": "git://github.com/clickcoin-foundation/clicksight.git",
   "contributors": [
     {
       "name": "Mike Croteau",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/noise23/clicksight/issues"
+    "url": "https://github.com/clickcoin-foundation/clicksight/issues"
   },
-  "homepage": "https://github.com/noise23/clicksight",
+  "homepage": "https://github.com/clickcoin-foundation/clicksight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -58,7 +58,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/clicksight-api"
   },
   "dependencies": {
-    "clicksight-api": "git://github.com/noise23/clicksight-api.git"
+    "clicksight-api": "git://github.com/clickcoin-foundation/clicksight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",

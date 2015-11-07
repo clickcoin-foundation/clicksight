@@ -3,9 +3,9 @@
 *Clicksight* is an open-source ClickCoin blockchain explorer with complete REST and websocket APIs.
 Clicksight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
-Check some screenshots and more details at [clicksight's project homepage](https://github.com/noise23/clicksight).
+Check some screenshots and more details at [clicksight's project homepage](https://github.com/clickcoin-foundation/clicksight).
 
-*Clicksight* project is now split in two repositories. One for the [API](https://github.com/noise23/clicksight-api)
+*Clicksight* project is now split in two repositories. One for the [API](https://github.com/clickcoin-foundation/clicksight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 ## Prerequisites
@@ -20,7 +20,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
   To install clicksight, clone the main repository:
 
-    $ git clone https://github.com/noise23/clicksight.git && cd clicksight
+    $ git clone https://github.com/clickcoin-foundation/clicksight.git && cd clicksight
 
   Install dependencies:
 
@@ -35,7 +35,7 @@ and for the front-end. This repository is for the front-end, which will install 
     http://localhost:3000
 
   If *clicksight* reports problems connecting to **clickcoind** please check the CONFIGURATION section of 
-  [clicksight-api README](https://github.com/noise23/clicksight-api/blob/master/README.md). To set the 
+  [clicksight-api README](https://github.com/clickcoin-foundation/clicksight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
@@ -44,7 +44,7 @@ and for the front-end. This repository is for the front-end, which will install 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [clicksight-api README](https://github.com/noise23/clicksight-api/blob/master/README.md). 
+  on [clicksight-api README](https://github.com/clickcoin-foundation/clicksight-api/blob/master/README.md). 
   
   
 ## Nginx Setup
@@ -130,11 +130,11 @@ compile***.
 
 ## Note
 
-For more details about the *clicksight-api* configs and end-point, just go to [clicksight-api github repository](https://github.com/noise23/clicksight-api) or read the [documentation](https://github.com/noise23/clicksight-api/blob/master/README.md)
+For more details about the *clicksight-api* configs and end-point, just go to [clicksight-api github repository](https://github.com/clickcoin-foundation/clicksight-api) or read the [documentation](https://github.com/clickcoin-foundation/clicksight-api/blob/master/README.md)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [clicksight github repository](https://github.com/noise23/clicksight).
+Contributions and suggestions are welcomed at [clicksight github repository](https://github.com/clickcoin-foundation/clicksight).
 
 
 ## License
