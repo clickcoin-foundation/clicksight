@@ -112,6 +112,11 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
     }, function(tx) {
       $rootScope.titleDetail = tx.txid.substring(0,7) + '...';
       $rootScope.flashMessage = null;
+          $rootScope.flashMessage = null;
+          if (tx.txid == '15241c408d25b55b1f4ec2f26704a7d095983bc90ed2c1d183de20a5e0bb68e5')
+            $scope.infoMessage = 'With this transaction 774840.15194814 CLICK were burned to CLCKxxxYBTxDESTRYxxADDRESSXXXTo8SX';
+          else
+            $scope.infoMessage = null;
       $scope.tx = tx;
       _processTX(tx);
       $scope.txs.unshift(tx);
