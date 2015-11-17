@@ -41,6 +41,9 @@
       <span class="txid text-muted">{{block.hash}}</span>
       <span class="btn-copy" clip-copy="block.hash"></span>
     </div>
+   <div class="alert alert-info" data-ng-show="infoMessage">
+     {{infoMessage}}
+  </div>
     <h2>Summary</h2>
     <div class="row">
       <div class="col-md-6">

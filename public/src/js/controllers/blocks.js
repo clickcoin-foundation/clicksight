@@ -79,6 +79,10 @@ angular.module('insight.blocks').controller('BlocksController',
     }, function(block) {
       $rootScope.titleDetail = block.height;
       $rootScope.flashMessage = null;
+      if (block.height == '1')
+          $scope.infoMessage = 'Initial ICO premine block. 774840.15194814 CLICK were burned at ICO end - see tx 15241c408d25b55b1f4ec2f26704a7d095983bc90ed2c1d183de20a5e0bb68e5';
+      else
+      $scope.infoMessage = null;
       $scope.loading = false;
       $scope.block = block;
     }, function(e) {
