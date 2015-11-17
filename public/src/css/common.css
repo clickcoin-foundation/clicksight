@@ -111,10 +111,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #0195CD;}
 
 .navbar-default {
-    background-color: #000;
+    background-color: #004A80;
     margin: 0;
     border: 0;
 }
@@ -127,13 +127,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #000000;
+    background-color: #008BC8;
     color: #fff;
     border-bottom:2px solid #1fbba6;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #000000;
+    background-color: #0195CD;
     color: #fff;
     border-bottom:2px solid #1fbba6
 }
@@ -153,8 +153,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .insight {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 34px;
-    font-style: italic;
+    font-size: 20px;
     font-weight: 700;
     overflow: hidden;
 }
@@ -169,7 +168,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-form .form-control {
-    background-color: #1B1B1B;
+    background-color: #FFF;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -186,7 +185,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 #search-form {
 
-    color: #fff;
+    color: #373D42;
 }
 
 #search.loading {
@@ -205,19 +204,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #search {
-    color: #fff;
-    width: 267px;
+    color: #373D42;
+    width: 400px;
 }
 
 #search::-webkit-input-placeholder {
-    color: #CCC;
+    color: #A2A2A2;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     font-weight: 100;
 }
 
 #search::-moz-placeholder {
-    color: #CCC;
+    color: #A2A2A2;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
 }
@@ -226,7 +225,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .status {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    background-color: #104E94;
+    background-color: #008BC8;
     border-radius: 3px;
     margin: 15px 0;
     padding: 8px 10px;
@@ -404,7 +403,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Set the fixed height of the footer here */
 #footer {
-    background-color: #373D42;
+    background-color: #004A80;
     color: #fff;
     height: 51px;
     overflow: hidden;
