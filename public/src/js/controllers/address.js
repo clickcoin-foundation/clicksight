@@ -34,9 +34,9 @@ angular.module('insight.address').controller('AddressController',
           $rootScope.titleDetail = address.addrStr.substring(0, 7) + '...';
           $rootScope.flashMessage = null;
           if (address.addrStr == 'c81P34RRjGEEbweXYAEPJjR1St94Z6am86')
-            $scope.flashMessage = 'This is the disappeared old dev development fund address (c81P34RRjGEEbweXYAEPJjR1St94Z6am86) with donated coins. This address has been blocked forever via hardfork, coins (245126.14146 CLICK) can not be moved, spent or staked.';
+            $scope.infoMessage = 'This is the disappeared old dev development fund address (c81P34RRjGEEbweXYAEPJjR1St94Z6am86) with donated coins. This address has been blocked forever via hardfork, coins (245126.14146 CLICK) can not be moved, spent or staked.';
           else
-            $scope.flashMessage = null;
+            $scope.infoMessage = null;
           $scope.address = address;
         },
         function(e) {
